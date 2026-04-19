@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+
+    <!-- Keep hard failure checks on by default, reduce high-noise style warnings. -->
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="TYPO" enabled_by_default="false" />
+    <inspection_tool class="TodoComment" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+
+    <inspection_tool class="FieldMayBeFinal" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="LocalCanBeFinal" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="MethodMayBeStatic" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnnecessaryLocalVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantSuppression" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+
+    <inspection_tool class="UnusedDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnusedAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnusedReturnValue" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnusedLabel" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
+
