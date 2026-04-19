@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":core:main" external.linked.project.path="$MODULE_DIR$/../../../shattered-pixel-dungeon/core" external.root.project.path="$MODULE_DIR$/../../../shattered-pixel-dungeon" external.system.id="GRADLE" external.system.module.group="shattered-pixel-dungeon" external.system.module.type="sourceSet" external.system.module.version="3.3.8" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../shattered-pixel-dungeon/core/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../shattered-pixel-dungeon/core/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../shattered-pixel-dungeon/core/src/main/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="shattered-pixel-dungeon.SPD-classes.main" />
+    <orderEntry type="module" module-name="shattered-pixel-dungeon.services.main" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx:1.14.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdx-controllers:gdx-controllers-core:2.2.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-jnigen-loader:2.5.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.badlogicgames.gdx:gdx-freetype:1.14.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.json:json:20170516" level="project" />
+  </component>
+</module>

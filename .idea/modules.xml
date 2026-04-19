@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shattered-pixel-dungeon.iml" filepath="$PROJECT_DIR$/.idea/modules/shattered-pixel-dungeon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SPD-classes/shattered-pixel-dungeon.SPD-classes.iml" filepath="$PROJECT_DIR$/.idea/modules/SPD-classes/shattered-pixel-dungeon.SPD-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SPD-classes/shattered-pixel-dungeon.SPD-classes.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SPD-classes/shattered-pixel-dungeon.SPD-classes.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SPD-classes/shattered-pixel-dungeon.SPD-classes.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SPD-classes/shattered-pixel-dungeon.SPD-classes.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/shattered-pixel-dungeon.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/shattered-pixel-dungeon.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/shattered-pixel-dungeon.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/shattered-pixel-dungeon.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/shattered-pixel-dungeon.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/shattered-pixel-dungeon.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/shattered-pixel-dungeon.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/shattered-pixel-dungeon.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/shattered-pixel-dungeon.desktop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/shattered-pixel-dungeon.desktop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/shattered-pixel-dungeon.desktop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/shattered-pixel-dungeon.desktop.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/shattered-pixel-dungeon.services.iml" filepath="$PROJECT_DIR$/.idea/modules/services/shattered-pixel-dungeon.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/shattered-pixel-dungeon.services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/shattered-pixel-dungeon.services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/news/shattered-pixel-dungeon.services.news.iml" filepath="$PROJECT_DIR$/.idea/modules/services/news/shattered-pixel-dungeon.services.news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/news/shatteredNews/shattered-pixel-dungeon.services.news.shatteredNews.iml" filepath="$PROJECT_DIR$/.idea/modules/services/news/shatteredNews/shattered-pixel-dungeon.services.news.shatteredNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/news/shatteredNews/shattered-pixel-dungeon.services.news.shatteredNews.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/news/shatteredNews/shattered-pixel-dungeon.services.news.shatteredNews.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/news/shatteredNews/shattered-pixel-dungeon.services.news.shatteredNews.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/news/shatteredNews/shattered-pixel-dungeon.services.news.shatteredNews.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/shattered-pixel-dungeon.services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/shattered-pixel-dungeon.services.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/updates/shattered-pixel-dungeon.services.updates.iml" filepath="$PROJECT_DIR$/.idea/modules/services/updates/shattered-pixel-dungeon.services.updates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/updates/githubUpdates/shattered-pixel-dungeon.services.updates.githubUpdates.iml" filepath="$PROJECT_DIR$/.idea/modules/services/updates/githubUpdates/shattered-pixel-dungeon.services.updates.githubUpdates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/updates/githubUpdates/shattered-pixel-dungeon.services.updates.githubUpdates.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/updates/githubUpdates/shattered-pixel-dungeon.services.updates.githubUpdates.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/updates/githubUpdates/shattered-pixel-dungeon.services.updates.githubUpdates.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/updates/githubUpdates/shattered-pixel-dungeon.services.updates.githubUpdates.test.iml" />
+    </modules>
+  </component>
+</project>

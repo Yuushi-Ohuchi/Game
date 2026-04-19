@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11" inherit-compiler-output="true">
+    <output url="file://$MODULE_DIR$/out" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/shattered-pixel-dungeon">
+      <sourceFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/SPD-classes/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/core/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/desktop/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/services/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/services/news/shatteredNews/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/services/updates/githubUpdates/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/build" />
+      <excludeFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/SPD-classes/build" />
+      <excludeFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/desktop/build" />
+      <excludeFolder url="file://$MODULE_DIR$/shattered-pixel-dungeon/services/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="openjdk-24" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

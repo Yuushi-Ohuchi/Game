@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":SPD-classes:test" external.linked.project.path="$MODULE_DIR$/../../../shattered-pixel-dungeon/SPD-classes" external.root.project.path="$MODULE_DIR$/../../../shattered-pixel-dungeon" external.system.id="GRADLE" external.system.module.group="shattered-pixel-dungeon" external.system.module.type="sourceSet" external.system.module.version="3.3.8" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../../shattered-pixel-dungeon/SPD-classes/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../shattered-pixel-dungeon/SPD-classes/src/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="shattered-pixel-dungeon.SPD-classes.main" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-freetype:1.14.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx:1.14.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdx-controllers:gdx-controllers-core:2.2.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.json:json:20170516" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-jnigen-loader:2.5.2" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="shattered-pixel-dungeon.SPD-classes.main" />
+</module>
