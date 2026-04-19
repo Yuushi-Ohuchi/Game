@@ -44,51 +44,51 @@ public class BadgeBanner extends Image {
 
 	public static final float DEFAULT_SCALE	= 3;
 	public static final int SIZE = 16;
-	
+
 	private static final float FADE_IN_TIME		= 0.25f;
 	private static final float STATIC_TIME		= 1f;
 	private static final float FADE_OUT_TIME	= 1.75f;
-	
+
 	private int index;
 	private float time;
-	
+
 	private static TextureFilm atlas;
-	
+
 	public static ArrayList<BadgeBanner> showing = new ArrayList<>();
-	
+
 	private BadgeBanner( int index ) {
-		
+
 		super( Assets.Interfaces.BADGES );
-		
+
 		if (atlas == null) {
 			atlas = new TextureFilm( texture, SIZE, SIZE );
 		}
-		
+
 		setup(index);
 	}
-	
+
 	public void setup( int index ){
 		this.index = index;
-		
+
 		frame( atlas.get( index ) );
 		origin.set( width / 2, height / 2 );
-		
+
 		alpha( 0 );
 		scale.set( 2 * DEFAULT_SCALE );
-		
+
 		state = State.FADE_IN;
 		time = FADE_IN_TIME;
-		
+
 		Sample.INSTANCE.play( Assets.Sounds.BADGE );
 	}
-	
+
 	@Override
 	public void update() {
 		super.update();
-		
+
 		time -= Game.elapsed;
 		if (time >= 0) {
-			
+
 			switch (state) {
 			case FADE_IN:
 				float p = time / FADE_IN_TIME;
@@ -101,9 +101,9 @@ public class BadgeBanner extends Image {
 				alpha( time /  FADE_OUT_TIME );
 				break;
 			}
-			
+
 		} else {
-			
+
 			switch (state) {
 			case FADE_IN:
 				time = STATIC_TIME;
@@ -120,10 +120,10 @@ public class BadgeBanner extends Image {
 				killAndErase();
 				break;
 			}
-			
+
 		}
 	}
-	
+
 	@Override
 	public void kill() {
 		showing.remove(this);
@@ -137,7 +137,7 @@ public class BadgeBanner extends Image {
 	}
 
 	//map to cache highlight positions so we don't have to keep looking at texture pixels
-	private static HashMap<Integer, Point> highlightPositions = new HashMap<>();
+	private static final HashMap<Integer, Point> highlightPositions = new HashMap<>();
 
 	//we also hardcode any special cases
 	static {
@@ -146,7 +146,7 @@ public class BadgeBanner extends Image {
 
 	//adds a shine to an appropriate pixel on a badge
 	public static void highlight( Image image, int index ) {
-		
+
 		PointF p = new PointF();
 
 		if (highlightPositions.containsKey(index)){
@@ -190,13 +190,13 @@ public class BadgeBanner extends Image {
 			-image.origin.x * (image.scale.x - 1),
 			-image.origin.y * (image.scale.y - 1) );
 		p.offset( image.point() );
-		
+
 		Speck star = new Speck();
 		star.reset( 0, p.x, p.y, Speck.DISCOVER );
 		star.camera = image.camera();
 		image.parent.add( star );
 	}
-	
+
 	public static BadgeBanner show( int image ) {
 		BadgeBanner banner = new BadgeBanner(image);
 		showing.add(banner);
@@ -206,7 +206,7 @@ public class BadgeBanner extends Image {
 	public static boolean isShowingBadges(){
 		return !showing.isEmpty();
 	}
-	
+
 	public static Image image( int index ) {
 		Image image = new Image( Assets.Interfaces.BADGES );
 		if (atlas == null) {
